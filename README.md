@@ -6,44 +6,7 @@
 <meta charset="utf-8">
 <title>Resume</title>
 
-<style>
-body{background-color: #ffe4c4;
-     margin: 0 15%;
-	 font-family: sans-serif;
-}
-h1{
-text-align: center;
-font-size: 1.5em;
-font-family:serif;
-font-weight: normal;
-text-transform: uppercase;
-border-bottom: 1px solid #57b1dc;
-margin-top: 30px;
-}
 
-h2{
-font-size: 1.5em;
-color: #d1633c;
-
-}
-
-h3{
-font-size: 1.5em;
-color: #d1633c;
-}
-
-h4{
-font-size: 1.5em;
-color: #d1633c;
-}
-
-h5{
-font-size: 1.5em;
-color: #d1633c;
-}
-
-
-</style>
 </head>
 
 
