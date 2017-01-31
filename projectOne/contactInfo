@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>ContactInformation</title>
+</head>
+
+<body>
+
+<h1>Additional Contact Information</h1>
+<ul>
+<li><a href="">E-mail: gnasybullina@gmail.com</a></li>
+<li><a href="">Phone number: 843-516-9293</a></li>
+<li><a href="">Mailing Adress: 847 N. Oakley Blvd., Apt. 2F, Chicago, IL, 60622</a></li>
+
+</ul>
+
+</body>
+
+</html>
