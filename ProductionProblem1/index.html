@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer Form</title>
+</head>
+<body>
+    <h1>Volunteer Form</h1>
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+	<fieldset>
+	<legend>Your infromation</legend>
+	
+		<p><label for ="first">First name:</label><br/>
+		    <input type="text" name="first_name_field" id="first"></p>
+		
+		<p><label for ="last">Last name:</label><br/>
+		    <input type="text" name="last_name_field" id="last"></p>
+		
+		<p><label for="email">Email:</label><br/>
+		    <input type="text" name="email_field" id="email" placeholder="example@example.com" ></p>
+		
+		<p><label for="phone">Phone number:</label><br/>
+		    <input type="text" name="phone_field" id="phone" placeholder="xxx-xxx-xxxx"></p>
+			
+		<p>Age: <input type="text" list="yourage" name="age_field"></p>
+		<datalist id="yourage"> 
+			<option value="Under 18"> 
+			<option value="18-25"> 
+			<option value="25-35"> 
+			<option value="35-45"> 
+			<option value="45-55"> 
+			<option value="Over 55"> 
+		</datalist>
+
+		<p>Gender: </p> 
+		<ul> 
+			<li><input type="radio" name="gender_field" value="female" checked> Female</li>
+			<li><input type="radio" name="gender_field" value="male"> Male</li> 
+		</ul>
+	</fieldset>
+
+	<fieldset>
+	<legend>Days Avaliable</legend>
+	
+	<p>What days you are avaliable?</p>
+	<ul> 
+		<li><input type="checkbox" name="days" value="monday" checked> Monday</li> 
+		<li><input type="checkbox" name="days" value="tuesday" checked> Tuesday</li> 
+		<li><input type="checkbox" name="days" value="wednesday"> Wednesday</li> 
+		<li><input type="checkbox" name="days" value="thursday"> Thursday</li> 
+		<li><input type="checkbox" name="days" value="friday"> Friday</li> 
+		<li><input type="checkbox" name="days" value="saturday"> Saturday</li> 
+		<li><input type="checkbox" name="days" value="sunday"> Sunday</li> 
+	</ul>
+
+	<textarea name="comments_field" rows="4" cols="45" placeholder="Leave a comment."></textarea><br/>
+	
+	<p>
+        <input type="hidden" name="hidden_field" value="gnasybullina">
+    </p>
+
+	<input type="submit" value="Submit">
+
+	</fieldset>
+	</form>
+	
+</body>
+
+</html>
