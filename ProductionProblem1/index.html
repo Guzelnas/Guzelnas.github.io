@@ -22,15 +22,15 @@
 		<p><label for="phone">Phone number:</label><br/>
 		    <input type="text" name="phone_field" id="phone" placeholder="xxx-xxx-xxxx"></p>
 			
-		<p>Age: <input type="text" list="yourage" name="age_field"></p>
-		<datalist id="yourage"> 
-			<option value="Under 18"> 
-			<option value="18-25"> 
-			<option value="25-35"> 
-			<option value="35-45"> 
-			<option value="45-55"> 
-			<option value="Over 55"> 
-		</datalist>
+		 <p id="ageMenu"><label>Age:  </label>
+                 <select name="age_field">
+                    <option selected disabled>Select Age</option>
+                    <option value="Under 18">Under 18</option>
+                    <option value="18-25">18-24</option>
+                    <option value="26-35">25-34</option>
+                    <option value="36-45">35-44</option>
+                    <option value="46-56">45-54</option>
+                    <option value="57 and Over">65 and Over</option></select></p>
 
 		<p>Gender: </p> 
 		<ul> 
