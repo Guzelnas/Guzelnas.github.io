@@ -1,0 +1,57 @@
+
+	body{
+		background-color: #FFF8DC;
+		font-family: monospace;
+	}
+	#navigation{
+		background: #FFE4C4;		
+		padding:1em;
+		padding-left:55px;
+		border-top-style: inset;
+	}
+	#skills{
+		background: #FFE4C4;		
+		padding:1em;
+		padding-left:55px;	
+		border-top-style: inset;
+	}
+	#workexperience{
+		background: #FFE4C4;	
+		padding:1em;
+		padding-left:55px;
+		border-top-style: inset;
+	
+	}
+	#Info{
+		background: #FFE4C4;		
+		padding:1em;
+		padding-left:55px;
+		border-top-style: inset;
+	}	
+	h1{		
+		font-size: 2em;
+		text-align: center;	
+		font-weight: bold;
+	}	
+	h2{		
+		font-size: 2em;
+		text-align: center;		
+		
+	}
+	
+	h3{
+		font-size: 2em;
+		text-align: center;
+		
+	}
+	h4{
+		font-size: 2em;
+		text-align: center;
+		
+	}
+	h5{
+		font-size: 2em;
+		text-align: center;
+		
+	}
+
