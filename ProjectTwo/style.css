@@ -1,57 +1,63 @@
-
 	body{
-		background-color: #FFF8DC;
+		background-color: #233237;
 		font-family: monospace;
+		color: #984B43;
 	}
-	#navigation{
-		background: #FFE4C4;		
-		padding:1em;
-		padding-left:55px;
-		border-top-style: inset;
+	ul{
+		list-style-type:circle;
+		color: #984B43;
+		font-size: 1em;
 	}
-	#skills{
-		background: #FFE4C4;		
-		padding:1em;
-		padding-left:55px;	
-		border-top-style: inset;
+	a{
+		text-decoration: none;
+		color: #984B43;	
+		font-size: 1.2em;
+		text-align: center;	
+		font-weight: bold;
 	}
-	#workexperience{
-		background: #FFE4C4;	
-		padding:1em;
-		padding-left:55px;
-		border-top-style: inset;
+	#navigation a:active{
+		color: red;
+	}
 	
+	#navigation, #Info{
+		background: #F7CE3E;		
+		padding:1em 3em 1em 3em;
+		border-style: dotted;
+		border-width: thick;
+		margin-left: 4em;
+		margin-right:4em;
+		margin-top:2em;
+		margin-bottom:2em;
 	}
-	#Info{
-		background: #FFE4C4;		
-		padding:1em;
-		padding-left:55px;
-		border-top-style: inset;
+	
+	
+	#skills, #education, #workexperience, #activity{
+		background: #EAC67A;		
+		padding:1em 3em 1em 3em;
+		border-style: inset;
+		border-color: gray;
+		margin-left: 4em;
+		margin-right:4em;
 	}	
+	#doggie{	
+		padding:1em 3em 1em 3em;
+		font-size: 2em;
+		text-align: center;	
+		font-weight: bold;
+		margin-left: 4em;
+		margin-right:4em;
+		margin-top:2em;
+		margin-bottom:2em;
+		
+	}
 	h1{		
 		font-size: 2em;
 		text-align: center;	
 		font-weight: bold;
+		color: #F7CE3E;
 	}	
-	h2{		
+	h2, h3, h4, h5{		
 		font-size: 2em;
 		text-align: center;		
-		
+		color: #18121E;
 	}
-	
-	h3{
-		font-size: 2em;
-		text-align: center;
-		
-	}
-	h4{
-		font-size: 2em;
-		text-align: center;
-		
-	}
-	h5{
-		font-size: 2em;
-		text-align: center;
-		
-	}
-
