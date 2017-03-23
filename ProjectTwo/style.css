@@ -1,63 +1,87 @@
+	
 	body{
-		background-color: #233237;
+		background-image: url(lantern.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		font-family: monospace;
-		color: #984B43;
+		color: #18121E;
 	}
+	
 	ul{
-		list-style-type:circle;
-		color: #984B43;
+		list-style:none;
+		color: #18121E;
 		font-size: 1em;
+		font-weight: bold;		
 	}
+	
 	a{
-		text-decoration: none;
-		color: #984B43;	
-		font-size: 1.2em;
+		
+		color: #18121E;	
 		text-align: center;	
-		font-weight: bold;
+		text-decoration: none;
 	}
+	#gallery img{
+		margin: 1%;
+		height: auto;
+		border: 1px solid #ddd;
+		width: 20%;
+	}
+
+	#gallery img:hover {
+    box-shadow: 6px 6px #666;
+	}
+	
 	#navigation a:active{
 		color: red;
 	}
 	
-	#navigation, #Info{
-		background: #F7CE3E;		
-		padding:1em 3em 1em 3em;
+	#navigation{
+		background: #F5DEB3;
+		padding:1em 3em;
+		border: 2px;
 		border-style: dotted;
-		border-width: thick;
-		margin-left: 4em;
-		margin-right:4em;
-		margin-top:2em;
-		margin-bottom:2em;
-	}
-	
+		margin: 2em 4em;
+		width: auto;
+		
+	}	
+
 	
 	#skills, #education, #workexperience, #activity{
-		background: #EAC67A;		
-		padding:1em 3em 1em 3em;
+		background: #EAC67A;	
+		padding:1em 2em;
+		border: 3px;
 		border-style: inset;
 		border-color: gray;
-		margin-left: 4em;
-		margin-right:4em;
-	}	
-	#doggie{	
-		padding:1em 3em 1em 3em;
-		font-size: 2em;
-		text-align: center;	
-		font-weight: bold;
-		margin-left: 4em;
-		margin-right:4em;
-		margin-top:2em;
-		margin-bottom:2em;
-		
+		margin: 2em 4em;
+		width: auto;
 	}
+	#contactinfo{
+		background: #FFEBCD;
+		text-align: center;
+		padding:1em 2em;
+		border: 3px;
+		border-style: ridge;
+		border-color: gray;
+		border-radius: 50px;
+		margin: 2em 4em;
+		width: auto;
+	}
+	
 	h1{		
 		font-size: 2em;
 		text-align: center;	
 		font-weight: bold;
-		color: #F7CE3E;
+		color: #18121E;
 	}	
-	h2, h3, h4, h5{		
+	h2, h3, h4, h5{	
 		font-size: 2em;
 		text-align: center;		
 		color: #18121E;
+		
 	}
+	footer{
+		font-weight: bold;
+		font-size: 1em;
+		text-align: center;
+	}
+	
