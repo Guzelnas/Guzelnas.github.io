@@ -1,4 +1,5 @@
 	
+	
 	body{
 		background-image: url(lantern.jpg);
 		background-repeat: no-repeat;
@@ -36,7 +37,7 @@
 	}
 	
 	#navigation{
-		background: #F5DEB3;
+		background: #FFEBCD;
 		padding:1em 3em;
 		border: 2px;
 		border-style: dotted;
@@ -56,7 +57,7 @@
 		width: auto;
 	}
 	#contactinfo{
-		background: #FFEBCD;
+		background: #EAC67A;	
 		text-align: center;
 		padding:1em 2em;
 		border: 3px;
