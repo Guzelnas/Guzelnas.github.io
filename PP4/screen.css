@@ -1,0 +1,47 @@
+	body {
+		background-color:black;	
+		font-size: 1em;
+		font-family: fantasy;
+		color: white;
+}
+		
+	table {
+		border-collapse: separate;
+		margin: auto;
+		width: 50%;
+		padding: 1em;
+
+}
+	h1 {
+	margin: auto;	
+	text-align:center;
+	
+}
+	.content {	
+	overflow: hidden;
+}
+	.content img {
+    margin: 15px;
+    float: left;
+}
+
+	table td, th {
+		font-family: monospace;
+		border: 1px solid grey;
+		text-align: left;
+		color: white;
+		font-size: 1.5em;
+}
+
+	th {
+	height: 50px;
+	text-align: center;
+	color: blue;
+	
+}
+	footer {
+	margin: auto;	
+	text-align:center;
+	
+}
+	
