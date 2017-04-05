@@ -1,0 +1,87 @@
+
+	body{
+		background-image: url(lantern.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family: monospace;
+		color: #18121E;
+	}
+	
+	ul{
+		list-style:none;
+		color: #18121E;
+		font-size: 1em;
+		font-weight: bold;		
+	}
+	
+	a{		
+		color: #18121E;	
+		text-align: center;	
+		text-decoration: none;
+	}
+	#gallery img{
+		margin: 1%;
+		height: auto;
+		border: 1px solid #ddd;
+		width: 20%;
+	}
+
+	#gallery img:hover {
+    box-shadow: 6px 6px #666;
+	}
+	
+	#navigation{
+		background: #FFDEAD;
+		padding:1em 3em;
+		border: 2px;
+		border-style: dotted;
+		margin: 2em 4em;
+		width: auto;
+		text-align: center;
+		font-family: fantasy;
+	}	
+	#navigation a:hover {
+		color: #EAC67A;
+	}
+	
+	#skills, #education, #workexperience, #activity{
+		background: #EAC67A;	
+		padding:1em 2em;
+		border: 3px;
+		border-style: inset;
+		border-color: gray;
+		margin: 2em 4em;
+		width: auto;
+	}
+	#contactinfo{
+		background: #EAC67A;	
+		text-align: center;
+		padding:1em 2em;
+		border: 3px;
+		border-style: ridge;
+		border-color: gray;
+		border-radius: 50px;
+		margin: 10em 10em;
+		width:auto;
+		
+	}
+	
+	h1{		
+		font-size: 2em;
+		text-align: center;	
+		font-weight: bold;
+		color: #18121E;
+	}	
+	h2, h3, h4, h5{	
+		font-size: 2em;
+		text-align: center;		
+		color: #18121E;
+		
+	}
+	footer{
+		font-weight: bold;
+		font-size: 1em;
+		text-align: center;
+	}
+	
+	
