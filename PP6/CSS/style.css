@@ -3,11 +3,14 @@
   background-color:  blue;
   text-align:center;
   width: 100%;
+  position: relative;
+  text-decoration: none;
 }
 
 #navbar-container{
-  
+  left: 50%;
   float: left;
+  position: relative;
 }
 
 #navbar-container ul{
@@ -15,10 +18,12 @@
   margin: 0;
   padding: 0;
   float: left;
+  right: 50%;
 }
 
 #navbar-container ul li{
   float: left;
+  padding: 10px, 15px;
 }
 
 #navbar-container a{
@@ -35,7 +40,7 @@
   background-color: red;
   text-align: center;
   position: fixed;
-  margin-right: 0%;
+  right: 0%;
 }
 
 #sidebar ul{
