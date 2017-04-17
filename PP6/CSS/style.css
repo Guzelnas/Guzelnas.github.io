@@ -1,1 +1,56 @@
 
+#main-navbar{
+  background-color:  blue;
+  text-align:center;
+  width: 100%;
+}
+
+#navbar-container{
+  
+  float: left;
+}
+
+#navbar-container ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#navbar-container ul li{
+  float: left;
+}
+
+#navbar-container a{
+  color: #fff;
+}
+#navbar-container a:active{
+  background-color: #000;
+}
+#onpage a{
+ text-decoration: underline;
+}
+
+#sidebar{
+  background-color: red;
+  text-align: center;
+  position: fixed;
+  margin-right: 0%;
+}
+
+#sidebar ul{
+  padding: 0;
+}
+
+#sidebar ul li{
+  padding: 20px 0;
+}
+
+#sidebar-container a{
+  color: #fff;
+}
+
+#sidebar-container a: active{
+  background-color: #000;
+}
+  
