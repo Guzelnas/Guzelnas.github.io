@@ -41,6 +41,8 @@
   text-align: center;
   position: fixed;
   right: 0%;
+  width: 30%;
+  height: 100%;
 }
 
 #sidebar ul{
@@ -48,11 +50,12 @@
 }
 
 #sidebar ul li{
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 
 #sidebar-container a{
   color: #fff;
+  text-decoration: none;
 }
 
 #sidebar-container a: active{
