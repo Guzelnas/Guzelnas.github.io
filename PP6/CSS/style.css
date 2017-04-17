@@ -37,7 +37,7 @@
   background-color: #000;
 }
 #onpage a{
- text-decoration: underline;
+ text-decoration: underline overline;
 }
 
 #sidebar{
