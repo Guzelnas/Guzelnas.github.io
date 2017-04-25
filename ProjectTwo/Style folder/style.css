@@ -1,8 +1,9 @@
 
 	body{
-		background-image: url("../Media/111.jpg");
+		background-image: url(111.jpg);
 		background-repeat: repeat;
 		font-family: monospace;
+		font-style: oblique;
 		color: #18121E;
 	}
 	
@@ -24,9 +25,9 @@
 		border: 1px solid #ddd;
 		width: 20%;
 	}
-
+	
 	#gallery img:hover {
-    		box-shadow: 6px 6px #666;
+		box-shadow: 6px 6px #666;
 	}
 	
 	#navigation{
@@ -37,6 +38,9 @@
 		width: auto;
 		text-align: center;
 		font-family: fantasy;
+		font-style: normal;
+		border-style: inset;
+		border-color: gray;
 	}	
 	#navigation a:hover {
 		color: #EAC67A;
@@ -48,7 +52,7 @@
 		border: 3px;
 		border-style: inset;
 		border-color: gray;
-		margin: 2em 4em;
+		margin: 2em 7em;
 		width: auto;
 	}
 	#contactinfo{
@@ -68,6 +72,7 @@
 		font-size: 2em;
 		text-align: center;	
 		font-weight: bold;
+		font-style: normal;
 		color: #18121E;
 	}	
 	h2, h3, h4, h5{	
@@ -80,6 +85,96 @@
 		font-weight: bold;
 		font-size: 1em;
 		text-align: center;
+		font-style: normal;
 	}
+
+	* {box-sizing:border-box}
+	.mySlides {display:none}
+
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	
+	}
+	.slideshow-container img{
+		width: 100%;
+	}
+	.circles{
+		text-align: center;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+
+	.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+
+	.dot {
+		cursor:pointer;
+		height: 13px;
+		width: 13px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active, .dot:hover {
+		background-color: #717171;
+	}
+
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+	}
+
+	@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+	}
+
+
+	@media only screen and (max-width: 300px) {
+		.prev, .next,.text {font-size: 11px}
+	}
+
 	
 	
