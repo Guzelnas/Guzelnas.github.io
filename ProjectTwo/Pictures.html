@@ -4,11 +4,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="Style folder/style.css">
+	<link rel="stylesheet" href="Style folder/style.css"/>
 	<link rel="stylesheet" href="Style folder/normalize.css"/>
 	<title>My dog</title>
 </head>
-
 
 <body>
 
@@ -21,14 +20,48 @@
 			</nav>
 		</header>
 	</div>
+	
 
-	<div id = "gallery">
-		<a href="Media/dog1.png"><img src="https://guzelnas.github.io/ProjectTwo/Media/dog1.png"alt="Photo of my dog 1"></a>
-		<a href="Media/dog2.png"><img src="https://guzelnas.github.io/ProjectTwo/Media/dog2.png" alt="Photo of my dog 2"></a>
-		<a href="Media/dog3.png"><img src="https://guzelnas.github.io/ProjectTwo/Media/dog3.png" alt="Photo of my dog 3"></a>
-		<a href="Media/dog4.JPG"><img src="https://guzelnas.github.io/ProjectTwo/Media/dog4.JPG" alt="Photo of my dog 4"></a>
-		<a href="Media/dog5.JPG"><img src="https://guzelnas.github.io/ProjectTwo/Media/dog5.JPG" alt="Photo of my dog 5"></a>
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 5</div>
+		<img src="https://guzelnas.github.io/ProjectTwo/Media/dog1.png" alt="Photo of my dog 1">
 	</div>
+  
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 5</div>
+		<img src="https://guzelnas.github.io/ProjectTwo/Media/dog2.png" alt="Photo of my dog 2">
+	</div>
+  
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 5</div>
+		<img src="https://guzelnas.github.io/ProjectTwo/Media/dog3.png" alt="Photo of my dog 3">
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 5</div>
+		<img src="https://guzelnas.github.io/ProjectTwo/Media/dog4.png" alt="Photo of my dog 4">
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 5</div>
+		<img src="https://guzelnas.github.io/ProjectTwo/Media/dog5.png" alt="Photo of my dog 5">
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="circles">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span> 
+	<span class="dot" onclick="currentSlide(5)"></span> 
+</div>
 
 
 <footer>
@@ -37,6 +70,34 @@
 	<p>03/2017</p>
 </footer>
 
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}    
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+		}
+		for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+	}
+</script>
 </body>
 
 </html>
