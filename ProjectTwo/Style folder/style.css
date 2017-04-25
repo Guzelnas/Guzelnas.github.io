@@ -19,16 +19,6 @@
 		text-align: center;	
 		text-decoration: none;
 	}
-	#gallery img{
-		margin: 1%;
-		height: auto;
-		border: 1px solid #ddd;
-		width: 20%;
-	}
-	
-	#gallery img:hover {
-		box-shadow: 6px 6px #666;
-	}
 	
 	#navigation{
 		background: linear-gradient(to top, aqua, blue);
