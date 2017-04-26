@@ -26,11 +26,26 @@
 		<ul>
 			<li><p>E-mail: gnasybullina@gmail.com</p></li>
 			<li><p>Phone number: 843-516-9293</p></li>
-			<li><p>Mailing Adress: 847 N. Oakley Blvd., Chicago, IL, 60622</p></li>
 		</ul>
 	</div>
 
+	<div id="googleMap"></div>
 
+	<script>
+	function myMap() {
+	var mapProp= {
+    	center:new google.maps.LatLng(41.835120, -87.626672),
+    	zoom:15,
+	};
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	}	
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuDJ4qJbcudtCCFT6T2Kglg3OIsypndcE&callback=myMap"></script>
+
+	
+	
+	
 <footer>
 	<p>Posted by: Guzel Nasybullina</p>	
 	<p>E-mail: <a href="mailto:gnasybullina@gmai.com">gnasybullina@gmail.com</a>.</p>	
